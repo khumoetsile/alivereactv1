@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import "./bootstrap.min.css";
+
+body {
+	font-family: "Lora", serif;
+	background: #d0d5da;
+}
+
+a {
+	text-decoration: none;
+	color: 0d6efd;
+}
+
+.full-form {
+	color: rgb(68, 66, 66);
+	font-weight: 700;
+	background-color: white;
+}
+
+.home {
+	background-image: linear-gradient(rgba(22, 22, 22, 0), rgba(22, 22, 22, .6)), url("/src/assets/images/pexels-negative-space-48604.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100vh;
+}
+
+.btn a {
+	color: inherit;
+	font-weight: inherit;
+}
+
+.spinner {
+	animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
